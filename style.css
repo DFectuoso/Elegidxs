@@ -1,0 +1,78 @@
+
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500';
+
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+body {
+  color: #eeeeee;
+  background-color:#333333;
+  margin: 0 auto;
+  max-width: 35em;
+  text-align: center;
+
+  line-height: 1.5;
+  padding: 4em 1em;
+  background-image: url("backgroundblack.png");
+  background-size: cover;
+
+  font-size: 1.5em;
+  line-height: 1.75em;
+  font-weight: 100;
+}
+
+a {
+    margin: 3em;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    padding: 2em 2em;
+    font-size: 1.25em;
+    color: white;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+@media screen and (max-width: 768px) {
+    /* For mobile phones: */
+    a {
+        display:block;
+    }
+
+    body{
+        font-size: 1.0em;
+    }
+}
+
+
+
+#logo {
+    margin: 3em;
+    width:22rem;
+}
+
+#lineholder{
+    max-width: 150px;
+    margin: auto;
+}
+
+hr {
+    max-width: 150px;
+    display: block;
+    border:0;
+    border-top:1px solid rgb(255, 255, 255);
+    margin:0 auto;
+    height:1px;
+}
+
+.tagline{
+    margin: 1em;
+}
+
+#botones{
+    margin: 3em 0;
+}
